@@ -1,0 +1,2 @@
+# An empty line is required at the end a cron file.
+* * * * * /usr/bin/php /var/www/auto-omnilog-lumen/artisan schedule:run >> /dev/null 2>&1
